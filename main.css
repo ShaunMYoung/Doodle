@@ -1,0 +1,43 @@
+body{
+    background-image: url("bg.jpg");
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 0;
+    margin: -250px 0 0 -250px;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    border-color: black;
+    border-style: solid;
+    max-zoom: 100%;
+
+
+}
+.row{
+    display: inline-block;
+}
+span{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    font-family: Cursive;
+    font-size: 5vw;
+    margin-top: 0.9%;
+    color: rgb(63, 156, 120);
+}
+#instructions {
+    overflow: hidden;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    top:88%;
+    font-family: Cursive;
+    font-size: 2vw;
+    color: rgb(63, 156, 120);
+}
