@@ -26,9 +26,9 @@ span{
     position:absolute;
     display: flex;
     align-items: center;
-    font-family: Cursive;
-    font-size: 5vw;
-    margin-top: 0.9%;
+    font-family: Arial;
+    font-size: 10vh;
+    margin-top: 5vh;
     color: rgb(63, 156, 120);
 }
 #instructions {
@@ -36,23 +36,16 @@ span{
     position:fixed;
     display: flex;
     align-items: center;
-    top:88%;
-    font-family: Cursive;
-    font-size: 2vw;
+    top:80vh;
+    font-family: Arial;
+    font-size: 3vh;
     color: rgb(63, 156, 120);
 }
 @media (max-device-width: 1025px) {
     body {
         height: 100vh;
     }
-    span {
-        margin-top: 150px !important;
-        font-size: 15vw !important;
-        font-family: Arial !important;
-    }
     #instructions {
-        font-size: 5vw !important;
-        top: 80% !important;
-        font-family: Arial !important;
+        display: none;
     }
 }
