@@ -30,8 +30,8 @@ function createBox(dim){
                     eraser.target.style.background = 'rgb(255, 255, 255)';
                 }
             })
-            cols.addEventListener('click',function(draw){
-                    draw.target.style.background = 'rgb(255, 255, 255)';
+            cols.addEventListener('mouseover',function(draw){
+               draw.target.setAttribute('style', 'background:black')
             })
             rows.appendChild(cols);
         }
