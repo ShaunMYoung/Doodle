@@ -30,6 +30,9 @@ function createBox(dim){
                     eraser.target.style.background = 'rgb(255, 255, 255)';
                 }
             })
+            cols.addEventListener('touchmove',function(draw){
+                draw.target.style.background = 'rgb(255, 255, 255)';
+            })
             rows.appendChild(cols);
         }
         box.appendChild(rows);

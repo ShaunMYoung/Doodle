@@ -41,3 +41,18 @@ span{
     font-size: 2vw;
     color: rgb(63, 156, 120);
 }
+@media (max-device-width: 1025px) {
+    body {
+        height: 100vh;
+    }
+    span {
+        margin-top: 150px;
+        font-size: 15vw;
+        font-family: Arial;
+    }
+    #instructions {
+        font-size: 5vw;
+        top: 80%;
+        font-family: Arial;
+    }
+}
