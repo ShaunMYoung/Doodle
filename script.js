@@ -11,6 +11,9 @@ function createBox(dim){
             cols.style.backgroundColor = 'rgb(255, 255, 255)';
             cols.style.width = 500/dim + 'px';
             cols.style.height = 500/dim + 'px';
+            cols.addEventListener('click',function(draw){
+                draw.target.style.background = 'rgb(0, 0, 0)';
+             })
             cols.addEventListener('mouseover',function(draw){
                 if (draw.buttons == 1) {
                     draw.target.style.background = 'rgb(0, 0, 0)';}
@@ -29,9 +32,6 @@ function createBox(dim){
                 if (eraser.buttons == 2) {
                     eraser.target.style.background = 'rgb(255, 255, 255)';
                 }
-            })
-            cols.addEventListener('mouseover',function(draw){
-               draw.target.setAttribute('style', 'background:black')
             })
             rows.appendChild(cols);
         }
