@@ -46,6 +46,6 @@ span{
         height: 100vh;
     }
     #instructions {
-        display: none;
+        display: none !important;
     }
 }
