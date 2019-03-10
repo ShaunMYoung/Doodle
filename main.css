@@ -46,13 +46,13 @@ span{
         height: 100vh;
     }
     span {
-        margin-top: 150px;
-        font-size: 15vw;
-        font-family: Arial;
+        margin-top: 150px !important;
+        font-size: 15vw !important;
+        font-family: Arial !important;
     }
     #instructions {
-        font-size: 5vw;
-        top: 80%;
-        font-family: Arial;
+        font-size: 5vw !important;
+        top: 80% !important;
+        font-family: Arial !important;
     }
 }
